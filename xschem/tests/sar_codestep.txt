@@ -1,0 +1,28 @@
+
+
+
+
+
+value=
+"
+
+.options list acct opts 
+.control 
+save all
+
+let lsb = 1.8 / 1024
+let total_runs = 10
+let current_run = 0
+
+
+let iterator = $&lsb / 2  
+
+
+while $&current_run lt total_runs
+	alter 		
+
+
+
+
+.endc
+"
