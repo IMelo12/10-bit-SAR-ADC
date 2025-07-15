@@ -86,8 +86,8 @@ lab=sw_sp_n9}
 C {sky130_fd_pr/cap_mim_m3_1.sym} -330 -20 2 0 {name=C1 model=cap_mim_m3_1 W=5 L=5 MF=128 spiceprefix=X}
 C {sky130_fd_pr/cap_mim_m3_1.sym} -190 -20 2 0 {name=C2 model=cap_mim_m3_1 W=5 L=5 MF=64 spiceprefix=X}
 C {sky130_fd_pr/cap_mim_m3_1.sym} -50 -20 2 0 {name=C3 model=cap_mim_m3_1 W=5 L=5 MF=128 spiceprefix=X}
-C {sky130_fd_pr/cap_mim_m3_1.sym} 90 -20 2 0 {name=C4 model=cap_mim_m3_1 W=1 L=1 MF=64 spiceprefix=X}
-C {sky130_fd_pr/cap_mim_m3_1.sym} 230 -20 2 0 {name=C5 model=cap_mim_m3_1 W=1 L=1 MF=32 spiceprefix=X}
+C {sky130_fd_pr/cap_mim_m3_1.sym} 90 -20 2 0 {name=C4 model=cap_mim_m3_1 W=5 L=5 MF=64 spiceprefix=X}
+C {sky130_fd_pr/cap_mim_m3_1.sym} 230 -20 2 0 {name=C5 model=cap_mim_m3_1 W=5 L=5 MF=32 spiceprefix=X}
 C {sky130_fd_pr/cap_mim_m3_1.sym} 370 -20 2 0 {name=C6 model=cap_mim_m3_1 W=5 L=5 MF=16 spiceprefix=X}
 C {sky130_fd_pr/cap_mim_m3_1.sym} 510 -20 2 0 {name=C7 model=cap_mim_m3_1 W=5 L=5 MF=8 spiceprefix=X}
 C {sky130_fd_pr/cap_mim_m3_1.sym} 650 -20 2 0 {name=C8 model=cap_mim_m3_1 W=5 L=5 MF=32 spiceprefix=X}
@@ -103,8 +103,8 @@ C {sky130_fd_pr/cap_mim_m3_1.sym} 1910 -20 2 0 {name=C17 model=cap_mim_m3_1 W=5 
 C {sky130_fd_pr/cap_mim_m3_1.sym} -330 180 0 0 {name=C18 model=cap_mim_m3_1 W=5 L=5 MF=128 spiceprefix=X}
 C {sky130_fd_pr/cap_mim_m3_1.sym} -190 180 0 0 {name=C19 model=cap_mim_m3_1 W=5 L=5 MF=64 spiceprefix=X}
 C {sky130_fd_pr/cap_mim_m3_1.sym} -50 180 0 0 {name=C20 model=cap_mim_m3_1 W=5 L=5 MF=128 spiceprefix=X}
-C {sky130_fd_pr/cap_mim_m3_1.sym} 90 180 0 0 {name=C21 model=cap_mim_m3_1 W=1 L=1 MF=64 spiceprefix=X}
-C {sky130_fd_pr/cap_mim_m3_1.sym} 230 180 0 0 {name=C22 model=cap_mim_m3_1 W=1 L=1 MF=32 spiceprefix=X}
+C {sky130_fd_pr/cap_mim_m3_1.sym} 90 180 0 0 {name=C21 model=cap_mim_m3_1 W=5 L=5 MF=64 spiceprefix=X}
+C {sky130_fd_pr/cap_mim_m3_1.sym} 230 180 0 0 {name=C22 model=cap_mim_m3_1 W=5 L=5 MF=32 spiceprefix=X}
 C {sky130_fd_pr/cap_mim_m3_1.sym} 370 180 0 0 {name=C23 model=cap_mim_m3_1 W=5 L=5 MF=16 spiceprefix=X}
 C {sky130_fd_pr/cap_mim_m3_1.sym} 510 180 0 0 {name=C24 model=cap_mim_m3_1 W=5 L=5 MF=8 spiceprefix=X}
 C {sky130_fd_pr/cap_mim_m3_1.sym} 650 180 0 0 {name=C25 model=cap_mim_m3_1 W=5 L=5 MF=32 spiceprefix=X}

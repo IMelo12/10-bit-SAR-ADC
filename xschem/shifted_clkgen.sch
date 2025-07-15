@@ -495,7 +495,7 @@ C {devices/opin.sym} -220 420 0 0 {name=p198 lab=cycle[15..0]}
 C {devices/lab_pin.sym} 390 450 2 0 {name=p37 sig_type=std_logic lab=reset_b}
 C {devices/ipin.sym} -270 440 0 0 {name=p36 lab=reset
 }
-C {sky130_stdcells/conb_1.sym} -380 -10 0 0 {name=x79 VGND=VSS VNB=VSS VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ 
+C {sky130_stdcells/conb_1.sym} -380 -10 0 0 {name=x79 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ 
 }
 C {devices/noconn.sym} -320 10 2 0 {name=l1}
 C {devices/lab_pin.sym} -160 40 2 0 {name=p38 sig_type=std_logic lab=reset_b}

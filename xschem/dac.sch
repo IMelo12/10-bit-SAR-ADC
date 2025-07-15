@@ -51,7 +51,6 @@ C {capswitch4.sym} 1460 420 0 0 {name=x31}
 C {capswitch2.sym} 1460 600 0 0 {name=x32}
 C {capswitch2.sym} -10 690 0 0 {name=x33}
 C {capswitch2.sym} 480 690 0 0 {name=x34}
-C {capacitor_array.sym} 700 850 0 0 {name=x35}
 C {devices/lab_pin.sym} -160 -50 0 0 {name=p1 sig_type=std_logic lab=VDD}
 C {devices/lab_pin.sym} -160 -30 0 0 {name=p2 sig_type=std_logic lab=GND
 }
@@ -308,3 +307,4 @@ C {devices/iopin.sym} -260 880 0 0 {name=p17 lab=VDD
 }
 C {devices/iopin.sym} -260 900 0 0 {name=p18 lab=GND
 }
+C {capacitor_array.sym} 700 850 0 0 {name=x35}

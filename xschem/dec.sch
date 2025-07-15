@@ -85,8 +85,6 @@ N 1480 -160 1480 -10 {
 lab=#net13}
 N 1480 -10 1530 -10 {
 lab=#net13}
-N 1610 -10 1610 80 {
-lab=#net14}
 N 1610 80 1630 80 {
 lab=#net14}
 N 1610 -160 1610 -130 {
@@ -199,6 +197,7 @@ N -130 230 -110 230 {
 lab=dump_bus}
 N -30 230 -10 230 {
 lab=done}
+N 1610 -10 1610 80 {}
 C {sky130_stdcells/fa_1.sym} -190 -80 3 1 {name=x1 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
 C {sky130_stdcells/dfrtp_1.sym} -300 80 0 0 {name=x110 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
 C {sky130_stdcells/fa_1.sym} 110 -80 3 1 {name=x2 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
