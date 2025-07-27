@@ -197,7 +197,8 @@ N -130 230 -110 230 {
 lab=dump_bus}
 N -30 230 -10 230 {
 lab=done}
-N 1610 -10 1610 80 {}
+N 1610 -10 1610 80 {
+lab=#net14}
 C {sky130_stdcells/fa_1.sym} -190 -80 3 1 {name=x1 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
 C {sky130_stdcells/dfrtp_1.sym} -300 80 0 0 {name=x110 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
 C {sky130_stdcells/fa_1.sym} 110 -80 3 1 {name=x2 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
@@ -310,16 +311,16 @@ C {devices/lab_pin.sym} 2380 60 0 1 {name=p47 sig_type=std_logic lab=bit10
 }
 C {devices/lab_pin.sym} 2200 0 0 1 {name=p48 sig_type=std_logic lab=raw_bit13
 }
-C {devices/ipin.sym} -450 240 0 0 {name=p195 lab=raw_bit[13..1]
+C {devices/ipin.sym} -450 240 0 0 {name=p195 lab=raw_bit13
 }
-C {devices/ipin.sym} -450 260 0 0 {name=p196 lab=dump_bus
+C {devices/ipin.sym} -450 510 0 0 {name=p196 lab=dump_bus
 }
-C {devices/ipin.sym} -450 280 0 0 {name=p197 lab=clr
+C {devices/ipin.sym} -450 530 0 0 {name=p197 lab=clr
 }
-C {devices/iopin.sym} -400 290 0 0 {name=p199 lab=VDD}
-C {devices/iopin.sym} -400 310 0 0 {name=p200 lab=GND}
-C {devices/opin.sym} -400 240 0 0 {name=p198 lab=bit[10..1]}
-C {devices/opin.sym} -400 260 0 0 {name=p201 lab=done}
+C {devices/iopin.sym} -400 490 0 0 {name=p199 lab=VDD}
+C {devices/iopin.sym} -400 510 0 0 {name=p200 lab=GND}
+C {devices/opin.sym} -400 240 0 0 {name=p198 lab=bit10}
+C {devices/opin.sym} -400 460 0 0 {name=p201 lab=done}
 C {sky130_stdcells/inv_1.sym} -70 230 0 0 {name=x29 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
 C {devices/lab_pin.sym} -130 230 0 0 {name=p49 sig_type=std_logic lab=dump_bus
 }
@@ -327,3 +328,37 @@ C {devices/lab_pin.sym} -10 230 0 1 {name=p50 sig_type=std_logic lab=done
 }
 C {devices/lab_pin.sym} -240 -200 0 0 {name=p1 sig_type=std_logic lab=raw_bit1
 }
+C {devices/opin.sym} -400 260 0 0 {name=p51 lab=bit9}
+C {devices/opin.sym} -400 280 0 0 {name=p52 lab=bit8}
+C {devices/opin.sym} -400 300 0 0 {name=p53 lab=bit7}
+C {devices/opin.sym} -400 320 0 0 {name=p54 lab=bit6}
+C {devices/opin.sym} -400 340 0 0 {name=p55 lab=bit5}
+C {devices/opin.sym} -400 360 0 0 {name=p56 lab=bit4}
+C {devices/opin.sym} -400 380 0 0 {name=p57 lab=bit3}
+C {devices/opin.sym} -400 400 0 0 {name=p58 lab=bit2}
+C {devices/opin.sym} -400 420 0 0 {name=p59 lab=bit1}
+C {devices/ipin.sym} -450 260 0 0 {name=p60 lab=raw_bit12
+}
+C {devices/ipin.sym} -450 280 0 0 {name=p61 lab=raw_bit11
+}
+C {devices/ipin.sym} -450 300 0 0 {name=p62 lab=raw_bit10
+}
+C {devices/ipin.sym} -450 320 0 0 {name=p63 lab=raw_bit9
+}
+C {devices/ipin.sym} -450 340 0 0 {name=p64 lab=raw_bit8
+}
+C {devices/ipin.sym} -450 360 0 0 {name=p65 lab=raw_bit7
+}
+C {devices/ipin.sym} -450 380 0 0 {name=p66 lab=raw_bit6
+}
+C {devices/ipin.sym} -450 400 0 0 {name=p67 lab=raw_bit5
+}
+C {devices/ipin.sym} -450 420 0 0 {name=p68 lab=raw_bit4
+}
+C {devices/ipin.sym} -450 440 0 0 {name=p69 lab=raw_bit3
+}
+C {devices/ipin.sym} -450 460 0 0 {name=p70 lab=raw_bit2
+}
+C {devices/ipin.sym} -450 480 0 0 {name=p71 lab=raw_bit1
+}
+C {devices/noconn.sym} -20 230 3 0 {name=l236}

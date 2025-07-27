@@ -8,13 +8,13 @@ E {}
 B 2 130 -20 930 380 {flags=graph
 y1=0
 y2=1.8
-ypos1=0.98552225
-ypos2=2.7855217
+ypos1=0.36985066
+ypos2=2.1698494
 divy=5
 subdivy=1
 unity=1
-x1=0.00011004933
-x2=0.0004500493
+x1=9.9568447e-05
+x2=0.00043956845
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -40,15 +40,15 @@ bit[9]
 bit[10]"
 digital=1}
 B 2 130 -420 930 -20 {flags=graph
-y1=-0.41748106
-y2=2.240145
+y1=-0.026
+y2=1.9
 ypos1=0
 ypos2=2
 divy=5
-subdivy=1
+subdivy=4
 unity=1
-x1=0.00011004933
-x2=0.0004500493
+x1=9.9568447e-05
+x2=0.00043956845
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -62,6 +62,28 @@ logy=0
 color="4 5"
 node="x1.vsample_p
 x1.vsample_n"}
+B 2 930 -420 1730 -20 {flags=graph
+y1=-0.036
+y2=2
+ypos1=0
+ypos2=2
+divy=5
+subdivy=1
+unity=1
+x1=9.9568447e-05
+x2=0.00043956845
+divx=5
+subdivx=1
+xlabmag=1.0
+ylabmag=1.0
+node="x1.comp_p
+x1.comp_n"
+color="4 7"
+dataset=-1
+unitx=1
+logx=0
+logy=0
+}
 T {0 -> 512  (offset binary)
 
 ----------------------------
@@ -78,7 +100,6 @@ N -140 180 -140 200 {
 lab=GND}
 N -480 350 -480 400 {
 lab=bias}
-C {sar_adc.sym} -130 -40 0 0 {name=x1}
 C {devices/vsource.sym} -690 0 0 0 {name=V3 value="PULSE 0 1.8V 1ns 1us 1ns 1s 1s"
 }
 C {devices/gnd.sym} -690 50 0 0 {name=l14 lab=GND}
@@ -138,9 +159,9 @@ C {devices/launcher.sym} 190 410 0 0 {name=h5
 descr="load waves" 
 tclcommand="xschem raw_read $netlist_dir/adc_test.raw tran"
 }
-C {devices/vsource.sym} -480 320 0 0 {name=V7 value="PULSE 0 0.130516 1ns 1us 1ns 1s 1s"
+C {devices/vsource.sym} -480 320 0 0 {name=V7 value="PULSE 0 0 1ns 1us 1ns 1s 1s"
 }
-C {devices/vsource.sym} -480 430 0 0 {name=V1 value="PULSE 0 0.130516 1ns 1us 1ns 1s 1s"
+C {devices/vsource.sym} -480 430 0 0 {name=V1 value="PULSE 0 0 1ns 1us 1ns 1s 1s"
 }
 C {devices/vsource.sym} -140 150 0 0 {name=V6 value="PULSE 0 1.8V 5us 0.1ns 0.1ns 1s 1s"
 }
@@ -157,3 +178,4 @@ write adc_test.raw
 .endc
 
 "}
+C {sar_adc/sar_adc.sym} -130 -40 0 0 {name=x1}

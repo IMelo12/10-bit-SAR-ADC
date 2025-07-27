@@ -17,40 +17,6 @@ N 850 820 870 820 {
 lab=Vin_p}
 N 850 840 870 840 {
 lab=Vin_n}
-C {capswitch16.sym} -10 -30 0 0 {name=x1}
-C {capswitch2.sym} -10 510 0 0 {name=x2}
-C {capswitch4.sym} -10 330 0 0 {name=x3}
-C {capswitch_8.sym} -10 150 0 0 {name=x4}
-C {capswitch16.sym} -10 60 0 0 {name=x5}
-C {capswitch_8.sym} -10 240 0 0 {name=x6}
-C {capswitch4.sym} -10 420 0 0 {name=x7}
-C {capswitch2.sym} -10 600 0 0 {name=x8}
-C {capswitch16.sym} 480 -30 0 0 {name=x9}
-C {capswitch2.sym} 480 510 0 0 {name=x10}
-C {capswitch4.sym} 480 330 0 0 {name=x11}
-C {capswitch_8.sym} 480 150 0 0 {name=x12}
-C {capswitch16.sym} 480 60 0 0 {name=x13}
-C {capswitch_8.sym} 480 240 0 0 {name=x14}
-C {capswitch4.sym} 480 420 0 0 {name=x15}
-C {capswitch2.sym} 480 600 0 0 {name=x16}
-C {capswitch16.sym} 970 -30 0 0 {name=x17}
-C {capswitch2.sym} 970 510 0 0 {name=x18}
-C {capswitch4.sym} 970 330 0 0 {name=x19}
-C {capswitch_8.sym} 970 150 0 0 {name=x20}
-C {capswitch16.sym} 970 60 0 0 {name=x21}
-C {capswitch_8.sym} 970 240 0 0 {name=x22}
-C {capswitch4.sym} 970 420 0 0 {name=x23}
-C {capswitch2.sym} 970 600 0 0 {name=x24}
-C {capswitch16.sym} 1460 -30 0 0 {name=x25}
-C {capswitch2.sym} 1460 510 0 0 {name=x26}
-C {capswitch4.sym} 1460 330 0 0 {name=x27}
-C {capswitch_8.sym} 1460 150 0 0 {name=x28}
-C {capswitch16.sym} 1460 60 0 0 {name=x29}
-C {capswitch_8.sym} 1460 240 0 0 {name=x30}
-C {capswitch4.sym} 1460 420 0 0 {name=x31}
-C {capswitch2.sym} 1460 600 0 0 {name=x32}
-C {capswitch2.sym} -10 690 0 0 {name=x33}
-C {capswitch2.sym} 480 690 0 0 {name=x34}
 C {devices/lab_pin.sym} -160 -50 0 0 {name=p1 sig_type=std_logic lab=VDD}
 C {devices/lab_pin.sym} -160 -30 0 0 {name=p2 sig_type=std_logic lab=GND
 }
@@ -307,4 +273,38 @@ C {devices/iopin.sym} -260 880 0 0 {name=p17 lab=VDD
 }
 C {devices/iopin.sym} -260 900 0 0 {name=p18 lab=GND
 }
-C {capacitor_array.sym} 700 850 0 0 {name=x35}
+C {caparray/capacitor_array.sym} 700 850 0 0 {name=x35}
+C {capswitch/capswitch16.sym} -10 -30 0 0 {name=x36}
+C {capswitch/capswitch2.sym} -10 510 0 0 {name=x37}
+C {capswitch/capswitch4.sym} -10 330 0 0 {name=x38}
+C {capswitch/capswitch_8.sym} -10 150 0 0 {name=x39}
+C {capswitch/capswitch16.sym} 480 -30 0 0 {name=x1}
+C {capswitch/capswitch16.sym} -10 60 0 0 {name=x5}
+C {capswitch/capswitch16.sym} 480 60 0 0 {name=x9}
+C {capswitch/capswitch16.sym} 970 60 0 0 {name=x13}
+C {capswitch/capswitch16.sym} 970 -30 0 0 {name=x17}
+C {capswitch/capswitch16.sym} 1460 -30 0 0 {name=x21}
+C {capswitch/capswitch16.sym} 1460 60 0 0 {name=x25}
+C {capswitch/capswitch_8.sym} -10 240 0 0 {name=x4}
+C {capswitch/capswitch_8.sym} 480 240 0 0 {name=x6}
+C {capswitch/capswitch_8.sym} 480 150 0 0 {name=x12}
+C {capswitch/capswitch_8.sym} 970 150 0 0 {name=x14}
+C {capswitch/capswitch_8.sym} 970 240 0 0 {name=x20}
+C {capswitch/capswitch_8.sym} 1460 150 0 0 {name=x22}
+C {capswitch/capswitch_8.sym} 1460 240 0 0 {name=x28}
+C {capswitch/capswitch4.sym} -10 420 0 0 {name=x3}
+C {capswitch/capswitch4.sym} 480 330 0 0 {name=x7}
+C {capswitch/capswitch4.sym} 480 420 0 0 {name=x11}
+C {capswitch/capswitch4.sym} 970 330 0 0 {name=x15}
+C {capswitch/capswitch4.sym} 970 420 0 0 {name=x19}
+C {capswitch/capswitch4.sym} 1460 330 0 0 {name=x23}
+C {capswitch/capswitch4.sym} 1460 420 0 0 {name=x27}
+C {capswitch/capswitch2.sym} 480 510 0 0 {name=x2}
+C {capswitch/capswitch2.sym} 480 600 0 0 {name=x8}
+C {capswitch/capswitch2.sym} -10 600 0 0 {name=x10}
+C {capswitch/capswitch2.sym} -10 690 0 0 {name=x16}
+C {capswitch/capswitch2.sym} 480 690 0 0 {name=x18}
+C {capswitch/capswitch2.sym} 970 510 0 0 {name=x24}
+C {capswitch/capswitch2.sym} 970 600 0 0 {name=x26}
+C {capswitch/capswitch2.sym} 1460 510 0 0 {name=x29}
+C {capswitch/capswitch2.sym} 1460 600 0 0 {name=x30}

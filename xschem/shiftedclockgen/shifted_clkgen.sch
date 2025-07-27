@@ -354,7 +354,7 @@ lab=#net60}
 N 290 450 310 450 {
 lab=#net61}
 N -320 -30 -260 -30 {
-lab=#net62}
+lab=VDD}
 N -160 -10 -160 40 {
 lab=reset_b}
 N 70 -10 70 40 {
@@ -489,15 +489,11 @@ C {devices/ipin.sym} -270 420 0 0 {name=p195 lab=clk
 }
 C {devices/ipin.sym} -270 460 0 0 {name=p197 lab=sw_sample
 }
-C {devices/iopin.sym} -220 470 0 0 {name=p199 lab=VDD}
-C {devices/iopin.sym} -220 490 0 0 {name=p200 lab=GND}
-C {devices/opin.sym} -220 420 0 0 {name=p198 lab=cycle[15..0]}
+C {devices/iopin.sym} -220 670 0 0 {name=p199 lab=VDD}
+C {devices/iopin.sym} -220 690 0 0 {name=p200 lab=GND}
 C {devices/lab_pin.sym} 390 450 2 0 {name=p37 sig_type=std_logic lab=reset_b}
 C {devices/ipin.sym} -270 440 0 0 {name=p36 lab=reset
 }
-C {sky130_stdcells/conb_1.sym} -380 -10 0 0 {name=x79 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ 
-}
-C {devices/noconn.sym} -320 10 2 0 {name=l1}
 C {devices/lab_pin.sym} -160 40 2 0 {name=p38 sig_type=std_logic lab=reset_b}
 C {devices/lab_pin.sym} 70 40 2 0 {name=p1 sig_type=std_logic lab=reset_b}
 C {devices/lab_pin.sym} 300 40 2 0 {name=p2 sig_type=std_logic lab=reset_b}
@@ -514,3 +510,35 @@ C {devices/lab_pin.sym} 2620 40 2 0 {name=p12 sig_type=std_logic lab=reset_b}
 C {devices/lab_pin.sym} 2860 40 2 0 {name=p13 sig_type=std_logic lab=reset_b}
 C {devices/lab_pin.sym} 3110 40 2 0 {name=p14 sig_type=std_logic lab=reset_b}
 C {devices/lab_pin.sym} 3360 40 2 0 {name=p15 sig_type=std_logic lab=reset_b}
+C {devices/opin.sym} -220 350 0 0 {name=p18 lab=cycle15
+}
+C {devices/opin.sym} -220 370 0 0 {name=p39 lab=cycle14
+}
+C {devices/opin.sym} -220 390 0 0 {name=p41 lab=cycle13
+}
+C {devices/opin.sym} -220 410 0 0 {name=p42 lab=cycle12
+}
+C {devices/opin.sym} -220 430 0 0 {name=p43 lab=cycle11
+}
+C {devices/opin.sym} -220 450 0 0 {name=p44 lab=cycle10
+}
+C {devices/opin.sym} -220 470 0 0 {name=p45 lab=cycle9
+}
+C {devices/opin.sym} -220 490 0 0 {name=p46 lab=cycle8
+}
+C {devices/opin.sym} -220 510 0 0 {name=p47 lab=cycle7
+}
+C {devices/opin.sym} -220 530 0 0 {name=p48 lab=cycle6}
+C {devices/opin.sym} -220 550 0 0 {name=p49 lab=cycle5
+}
+C {devices/opin.sym} -220 570 0 0 {name=p50 lab=cycle4
+}
+C {devices/opin.sym} -220 590 0 0 {name=p51 lab=cycle3
+}
+C {devices/opin.sym} -220 610 0 0 {name=p52 lab=cycle2
+}
+C {devices/opin.sym} -220 630 0 0 {name=p53 lab=cycle1
+}
+C {devices/opin.sym} -220 650 0 0 {name=p54 lab=cycle0
+}
+C {devices/lab_pin.sym} -320 -30 0 0 {name=p55 sig_type=std_logic lab=VDD}

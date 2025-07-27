@@ -791,8 +791,6 @@ C {devices/lab_pin.sym} -170 220 0 0 {name=p9 sig_type=std_logic lab=vcmp
 C {sky130_stdcells/inv_1.sym} -100 420 0 0 {name=x18 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
 C {devices/lab_pin.sym} -170 380 0 0 {name=p13 sig_type=std_logic lab=vcmp
 }
-C {demux.sym} -700 170 0 0 {name=x16}
-C {demux.sym} -710 330 0 0 {name=x17}
 C {devices/lab_pin.sym} -550 180 0 1 {name=p10 sig_type=std_logic lab=VDD
 }
 C {devices/lab_pin.sym} -550 200 0 1 {name=p14 sig_type=std_logic lab=GND
@@ -847,8 +845,6 @@ C {devices/lab_pin.sym} -170 920 0 0 {name=p37 sig_type=std_logic lab=vcmp
 C {sky130_stdcells/inv_1.sym} -100 1120 0 0 {name=x34 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
 C {devices/lab_pin.sym} -170 1080 0 0 {name=p39 sig_type=std_logic lab=vcmp
 }
-C {demux.sym} -710 1030 0 0 {name=x35}
-C {demux.sym} -710 1190 0 0 {name=x36}
 C {devices/lab_pin.sym} -560 1040 0 1 {name=p41 sig_type=std_logic lab=VDD
 }
 C {devices/lab_pin.sym} -560 1060 0 1 {name=p42 sig_type=std_logic lab=GND
@@ -875,7 +871,6 @@ C {sky130_stdcells/and2_0.sym} -290 900 0 0 {name=x37 VGND=GND VNB=GND VPB=VDD V
 C {sky130_stdcells/inv_1.sym} -440 880 0 0 {name=x38 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
 C {devices/lab_pin.sym} -350 920 0 0 {name=p7 sig_type=std_logic lab=clr
 }
-C {demux.sym} -710 1350 0 0 {name=x39}
 C {devices/lab_pin.sym} -560 1360 0 1 {name=p32 sig_type=std_logic lab=VDD
 }
 C {devices/lab_pin.sym} -560 1380 0 1 {name=p36 sig_type=std_logic lab=GND
@@ -928,8 +923,6 @@ C {devices/lab_pin.sym} -170 1940 0 0 {name=p67 sig_type=std_logic lab=vcmp
 C {sky130_stdcells/inv_1.sym} -100 2140 0 0 {name=x61 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
 C {devices/lab_pin.sym} -170 2100 0 0 {name=p68 sig_type=std_logic lab=vcmp
 }
-C {demux.sym} -710 2050 0 0 {name=x62}
-C {demux.sym} -710 2210 0 0 {name=x63}
 C {devices/lab_pin.sym} -560 2060 0 1 {name=p69 sig_type=std_logic lab=VDD
 }
 C {devices/lab_pin.sym} -560 2080 0 1 {name=p70 sig_type=std_logic lab=GND
@@ -956,7 +949,6 @@ C {sky130_stdcells/and2_0.sym} -290 1920 0 0 {name=x64 VGND=GND VNB=GND VPB=VDD 
 C {sky130_stdcells/inv_1.sym} -440 1900 0 0 {name=x65 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
 C {devices/lab_pin.sym} -350 1940 0 0 {name=p84 sig_type=std_logic lab=clr
 }
-C {demux.sym} -710 2370 0 0 {name=x66}
 C {devices/lab_pin.sym} -560 2380 0 1 {name=p85 sig_type=std_logic lab=VDD
 }
 C {devices/lab_pin.sym} -560 2400 0 1 {name=p86 sig_type=std_logic lab=GND
@@ -1207,19 +1199,12 @@ C {devices/lab_pin.sym} -2250 1130 0 0 {name=p193 sig_type=std_logic lab=cycle12
 }
 C {devices/lab_pin.sym} -2250 1200 0 0 {name=p194 sig_type=std_logic lab=cycle13
 }
-C {devices/ipin.sym} -2670 360 0 0 {name=p195 lab=cycle[13..1]
+C {devices/ipin.sym} -2660 650 0 0 {name=p196 lab=vcmp
 }
-C {devices/ipin.sym} -2670 380 0 0 {name=p196 lab=vcmp
+C {devices/ipin.sym} -2660 670 0 0 {name=p197 lab=clr
 }
-C {devices/ipin.sym} -2670 400 0 0 {name=p197 lab=clr
-}
-C {devices/iopin.sym} -2620 470 0 0 {name=p199 lab=VDD}
-C {devices/iopin.sym} -2620 490 0 0 {name=p200 lab=GND}
-C {devices/opin.sym} -2620 360 0 0 {name=p198 lab=raw_bit[13..1]}
-C {devices/opin.sym} -2620 380 0 0 {name=p201 lab=sw_p[8..1]}
-C {devices/opin.sym} -2620 440 0 0 {name=p202 lab=sw_n_sp[9..1]}
-C {devices/opin.sym} -2620 400 0 0 {name=p203 lab=sw_n[8..1]}
-C {devices/opin.sym} -2620 420 0 0 {name=p204 lab=sw_p_sp[9..1]}
+C {devices/iopin.sym} -2620 650 0 0 {name=p199 lab=VDD}
+C {devices/iopin.sym} -2620 670 0 0 {name=p200 lab=GND}
 C {sky130_stdcells/dfrtp_1.sym} 110 -140 0 0 {name=x120 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ 
 }
 C {sky130_stdcells/dfrtp_1.sym} 110 -60 0 0 {name=x1 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ 
@@ -1285,4 +1270,132 @@ C {sky130_stdcells/dfrtp_4.sym} -2160 1080 0 0 {name=x116 VGND=GND VNB=GND VPB=V
 C {sky130_stdcells/dfrtp_4.sym} -2160 1150 0 0 {name=x117 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ 
 }
 C {sky130_stdcells/dfrtp_4.sym} -2160 1220 0 0 {name=x118 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ 
+}
+C {demux/demux.sym} -700 170 0 0 {name=x16}
+C {demux/demux.sym} -710 330 0 0 {name=x17}
+C {demux/demux.sym} -710 1030 0 0 {name=x119}
+C {demux/demux.sym} -710 1190 0 0 {name=x35}
+C {demux/demux.sym} -710 1350 0 0 {name=x36}
+C {demux/demux.sym} -710 2050 0 0 {name=x39}
+C {demux/demux.sym} -710 2210 0 0 {name=x62}
+C {demux/demux.sym} -710 2370 0 0 {name=x63}
+C {devices/ipin.sym} -2660 720 0 0 {name=p217 lab=cycle13
+}
+C {devices/opin.sym} -2620 1210 0 0 {name=p218 lab=sw_p_sp8
+}
+C {devices/opin.sym} -2620 1000 0 0 {name=p219 lab=sw_p8
+}
+C {devices/opin.sym} -2620 720 0 0 {name=p220 lab=raw_bit13
+}
+C {devices/ipin.sym} -2660 740 0 0 {name=p221 lab=cycle12
+}
+C {devices/ipin.sym} -2660 760 0 0 {name=p222 lab=cycle11
+}
+C {devices/ipin.sym} -2660 780 0 0 {name=p223 lab=cycle10
+}
+C {devices/ipin.sym} -2660 800 0 0 {name=p224 lab=cycle9
+}
+C {devices/ipin.sym} -2660 820 0 0 {name=p225 lab=cycle8
+}
+C {devices/ipin.sym} -2660 840 0 0 {name=p226 lab=cycle7
+}
+C {devices/ipin.sym} -2660 860 0 0 {name=p227 lab=cycle6
+}
+C {devices/ipin.sym} -2660 880 0 0 {name=p228 lab=cycle5
+}
+C {devices/ipin.sym} -2660 900 0 0 {name=p229 lab=cycle4
+}
+C {devices/ipin.sym} -2660 920 0 0 {name=p230 lab=cycle3
+}
+C {devices/ipin.sym} -2660 940 0 0 {name=p231 lab=cycle2
+}
+C {devices/ipin.sym} -2660 960 0 0 {name=p232 lab=cycle1
+}
+C {devices/opin.sym} -2620 740 0 0 {name=p233 lab=raw_bit12
+}
+C {devices/opin.sym} -2620 760 0 0 {name=p234 lab=raw_bit11
+}
+C {devices/opin.sym} -2620 780 0 0 {name=p235 lab=raw_bit10
+}
+C {devices/opin.sym} -2620 800 0 0 {name=p236 lab=raw_bit9
+}
+C {devices/opin.sym} -2620 820 0 0 {name=p237 lab=raw_bit8
+}
+C {devices/opin.sym} -2620 840 0 0 {name=p238 lab=raw_bit7
+}
+C {devices/opin.sym} -2620 860 0 0 {name=p239 lab=raw_bit6
+}
+C {devices/opin.sym} -2620 880 0 0 {name=p240 lab=raw_bit5
+}
+C {devices/opin.sym} -2620 900 0 0 {name=p241 lab=raw_bit4
+}
+C {devices/opin.sym} -2620 920 0 0 {name=p242 lab=raw_bit3
+}
+C {devices/opin.sym} -2620 940 0 0 {name=p243 lab=raw_bit2
+}
+C {devices/opin.sym} -2620 960 0 0 {name=p244 lab=raw_bit1
+}
+C {devices/opin.sym} -2620 1020 0 0 {name=p245 lab=sw_p7
+}
+C {devices/opin.sym} -2620 1040 0 0 {name=p246 lab=sw_p6
+}
+C {devices/opin.sym} -2620 1060 0 0 {name=p247 lab=sw_p5
+}
+C {devices/opin.sym} -2620 1080 0 0 {name=p248 lab=sw_p4
+}
+C {devices/opin.sym} -2620 1100 0 0 {name=p249 lab=sw_p3
+}
+C {devices/opin.sym} -2620 1120 0 0 {name=p250 lab=sw_p2
+}
+C {devices/opin.sym} -2620 1140 0 0 {name=p251 lab=sw_p1
+}
+C {devices/opin.sym} -2620 1230 0 0 {name=p252 lab=sw_p_sp7
+}
+C {devices/opin.sym} -2620 1250 0 0 {name=p253 lab=sw_p_sp6
+}
+C {devices/opin.sym} -2620 1270 0 0 {name=p254 lab=sw_p_sp5
+}
+C {devices/opin.sym} -2620 1290 0 0 {name=p255 lab=sw_p_sp4
+}
+C {devices/opin.sym} -2620 1310 0 0 {name=p256 lab=sw_p_sp3
+}
+C {devices/opin.sym} -2620 1330 0 0 {name=p257 lab=sw_p_sp2
+}
+C {devices/opin.sym} -2620 1350 0 0 {name=p258 lab=sw_p_sp1
+}
+C {devices/opin.sym} -2620 1190 0 0 {name=p259 lab=sw_p_sp9
+}
+C {devices/opin.sym} -2620 1600 0 0 {name=p260 lab=sw_n_sp8
+}
+C {devices/opin.sym} -2620 1390 0 0 {name=p261 lab=sw_n8
+}
+C {devices/opin.sym} -2620 1410 0 0 {name=p262 lab=sw_n7
+}
+C {devices/opin.sym} -2620 1430 0 0 {name=p263 lab=sw_n6
+}
+C {devices/opin.sym} -2620 1450 0 0 {name=p264 lab=sw_n5
+}
+C {devices/opin.sym} -2620 1470 0 0 {name=p265 lab=sw_n4
+}
+C {devices/opin.sym} -2620 1490 0 0 {name=p266 lab=sw_n3
+}
+C {devices/opin.sym} -2620 1510 0 0 {name=p267 lab=sw_n2
+}
+C {devices/opin.sym} -2620 1530 0 0 {name=p268 lab=sw_n1
+}
+C {devices/opin.sym} -2620 1620 0 0 {name=p269 lab=sw_n_sp7
+}
+C {devices/opin.sym} -2620 1640 0 0 {name=p270 lab=sw_n_sp6
+}
+C {devices/opin.sym} -2620 1660 0 0 {name=p271 lab=sw_n_sp5
+}
+C {devices/opin.sym} -2620 1680 0 0 {name=p272 lab=sw_n_sp4
+}
+C {devices/opin.sym} -2620 1700 0 0 {name=p273 lab=sw_n_sp3
+}
+C {devices/opin.sym} -2620 1720 0 0 {name=p274 lab=sw_n_sp2
+}
+C {devices/opin.sym} -2620 1740 0 0 {name=p275 lab=sw_n_sp1
+}
+C {devices/opin.sym} -2620 1580 0 0 {name=p276 lab=sw_n_sp9
 }

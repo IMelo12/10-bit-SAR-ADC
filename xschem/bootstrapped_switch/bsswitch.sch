@@ -188,7 +188,7 @@ lab=#net7}
 N 430 470 430 480 {
 lab=VDD}
 N 520 470 520 480 {
-lab=#net11}
+lab=nCLK}
 N 520 830 540 830 {
 lab=Vout_n}
 N 180 890 190 890 {
@@ -231,7 +231,7 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {sky130_fd_pr/pfet_01v8.sym} 200 -150 2 0 {name=M1
+C {sky130_fd_pr/pfet_01v8.sym} 200 -150 0 1 {name=M1
 L=0.15
 W=5
 nf=1
@@ -376,7 +376,7 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {sky130_fd_pr/pfet_01v8.sym} 200 460 2 0 {name=M13
+C {sky130_fd_pr/pfet_01v8.sym} 200 460 0 1 {name=M13
 L=0.15
 W=5
 nf=1
