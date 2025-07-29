@@ -1,0 +1,275 @@
+library (digital) {
+  comment                        : "";
+  delay_model                    : table_lookup;
+  simulation                     : false;
+  capacitive_load_unit (1,pF);
+  leakage_power_unit             : 1pW;
+  current_unit                   : "1A";
+  pulling_resistance_unit        : "1kohm";
+  time_unit                      : "1ns";
+  voltage_unit                   : "1v";
+  library_features(report_delay_calculation);
+
+  input_threshold_pct_rise : 50;
+  input_threshold_pct_fall : 50;
+  output_threshold_pct_rise : 50;
+  output_threshold_pct_fall : 50;
+  slew_lower_threshold_pct_rise : 20;
+  slew_lower_threshold_pct_fall : 20;
+  slew_upper_threshold_pct_rise : 80;
+  slew_upper_threshold_pct_fall : 80;
+  slew_derate_from_library : 1.0;
+
+
+  nom_process                    : 1.0;
+  nom_temperature                : 25.0;
+  nom_voltage                    : 1.80;
+
+  lu_table_template(template_1) {
+    variable_1 : total_output_net_capacitance;
+    index_1 ("0.00050,  0.00146,  0.00429,  0.01257,  0.03681,  0.10783,  0.31587");
+  }
+
+  cell ("digital") {
+    area : 4216.551 
+    is_macro_cell : true;
+    pin("GND") {
+      direction : inout;
+      capacitance : 0.0000;
+    }
+    pin("VDD") {
+      direction : inout;
+      capacitance : 0.0411;
+    }
+    pin("clk") {
+      direction : input;
+      capacitance : 0.0029;
+    }
+    pin("clr") {
+      direction : input;
+      capacitance : 0.0030;
+    }
+    pin("comp_clk") {
+      direction : output;
+      capacitance : 0.0000;
+      timing() {
+        related_pin : "clk";
+        timing_sense : positive_unate;
+        timing_type : combinational;
+	cell_rise(template_1) {
+          values("1.24981,1.25481,1.26689,1.29634,1.37658,1.60936,2.29350");
+	}
+	rise_transition(template_1) {
+          values("0.01727,0.02178,0.03428,0.07131,0.18465,0.52177,1.50561");
+	}
+	cell_fall(template_1) {
+          values("1.24081,1.24538,1.25568,1.27662,1.32205,1.43814,1.77239");
+	}
+	fall_transition(template_1) {
+          values("0.01761,0.02072,0.02791,0.04582,0.09406,0.24292,0.69569");
+	}
+      }
+    }
+    pin("comp_n") {
+      direction : input;
+      capacitance : 0.0037;
+    }
+    pin("comp_p") {
+      direction : input;
+      capacitance : 0.0022;
+    }
+    pin("done") {
+      direction : output;
+      capacitance : 0.0000;
+    }
+    pin("obit1") {
+      direction : output;
+      capacitance : 0.0000;
+    }
+    pin("obit10") {
+      direction : output;
+      capacitance : 0.0000;
+    }
+    pin("obit2") {
+      direction : output;
+      capacitance : 0.0000;
+    }
+    pin("obit3") {
+      direction : output;
+      capacitance : 0.0000;
+    }
+    pin("obit4") {
+      direction : output;
+      capacitance : 0.0000;
+    }
+    pin("obit5") {
+      direction : output;
+      capacitance : 0.0000;
+    }
+    pin("obit6") {
+      direction : output;
+      capacitance : 0.0000;
+    }
+    pin("obit7") {
+      direction : output;
+      capacitance : 0.0000;
+    }
+    pin("obit8") {
+      direction : output;
+      capacitance : 0.0000;
+    }
+    pin("obit9") {
+      direction : output;
+      capacitance : 0.0000;
+    }
+    pin("sw_n1") {
+      direction : output;
+      capacitance : 0.0000;
+    }
+    pin("sw_n2") {
+      direction : output;
+      capacitance : 0.0000;
+    }
+    pin("sw_n3") {
+      direction : output;
+      capacitance : 0.0000;
+    }
+    pin("sw_n4") {
+      direction : output;
+      capacitance : 0.0000;
+    }
+    pin("sw_n5") {
+      direction : output;
+      capacitance : 0.0000;
+    }
+    pin("sw_n6") {
+      direction : output;
+      capacitance : 0.0000;
+    }
+    pin("sw_n7") {
+      direction : output;
+      capacitance : 0.0000;
+    }
+    pin("sw_n8") {
+      direction : output;
+      capacitance : 0.0000;
+    }
+    pin("sw_n_sp1") {
+      direction : output;
+      capacitance : 0.0000;
+    }
+    pin("sw_n_sp2") {
+      direction : output;
+      capacitance : 0.0000;
+    }
+    pin("sw_n_sp3") {
+      direction : output;
+      capacitance : 0.0000;
+    }
+    pin("sw_n_sp4") {
+      direction : output;
+      capacitance : 0.0000;
+    }
+    pin("sw_n_sp5") {
+      direction : output;
+      capacitance : 0.0000;
+    }
+    pin("sw_n_sp6") {
+      direction : output;
+      capacitance : 0.0000;
+    }
+    pin("sw_n_sp7") {
+      direction : output;
+      capacitance : 0.0000;
+    }
+    pin("sw_n_sp8") {
+      direction : output;
+      capacitance : 0.0000;
+    }
+    pin("sw_n_sp9") {
+      direction : output;
+      capacitance : 0.0000;
+    }
+    pin("sw_p1") {
+      direction : output;
+      capacitance : 0.0000;
+    }
+    pin("sw_p2") {
+      direction : output;
+      capacitance : 0.0000;
+    }
+    pin("sw_p3") {
+      direction : output;
+      capacitance : 0.0000;
+    }
+    pin("sw_p4") {
+      direction : output;
+      capacitance : 0.0000;
+    }
+    pin("sw_p5") {
+      direction : output;
+      capacitance : 0.0000;
+    }
+    pin("sw_p6") {
+      direction : output;
+      capacitance : 0.0000;
+    }
+    pin("sw_p7") {
+      direction : output;
+      capacitance : 0.0000;
+    }
+    pin("sw_p8") {
+      direction : output;
+      capacitance : 0.0000;
+    }
+    pin("sw_p_sp1") {
+      direction : output;
+      capacitance : 0.0000;
+    }
+    pin("sw_p_sp2") {
+      direction : output;
+      capacitance : 0.0000;
+    }
+    pin("sw_p_sp3") {
+      direction : output;
+      capacitance : 0.0000;
+    }
+    pin("sw_p_sp4") {
+      direction : output;
+      capacitance : 0.0000;
+    }
+    pin("sw_p_sp5") {
+      direction : output;
+      capacitance : 0.0000;
+    }
+    pin("sw_p_sp6") {
+      direction : output;
+      capacitance : 0.0000;
+    }
+    pin("sw_p_sp7") {
+      direction : output;
+      capacitance : 0.0000;
+    }
+    pin("sw_p_sp8") {
+      direction : output;
+      capacitance : 0.0000;
+    }
+    pin("sw_p_sp9") {
+      direction : output;
+      capacitance : 0.0000;
+    }
+    pin("sw_sample") {
+      direction : output;
+      capacitance : 0.0000;
+    }
+    pin("VPWR") {
+      direction : input;
+      capacitance : 0.0000;
+    }
+    pin("VGND") {
+      direction : input;
+      capacitance : 0.0000;
+    }
+  }
+
+}

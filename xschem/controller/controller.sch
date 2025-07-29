@@ -66,7 +66,7 @@ C {devices/opin.sym} -380 480 0 0 {name=p37 lab=sw_n_sp[9..1]}
 C {devices/opin.sym} -380 500 0 0 {name=p38 lab=sw_p_sp[9..1]}
 C {devices/opin.sym} -380 540 0 0 {name=p39 lab=sw_p[8..1]}
 C {devices/opin.sym} -380 520 0 0 {name=p41 lab=sw_n[8..1]}
-C {devices/opin.sym} -380 560 0 0 {name=p42 lab=bit[10..1]}
+C {devices/opin.sym} -380 560 0 0 {name=p42 lab=obit[10..1]}
 C {devices/opin.sym} -380 580 0 0 {name=p43 lab=done}
 C {devices/opin.sym} -380 600 0 0 {name=p44 lab=sw_sample}
 C {devices/opin.sym} -380 620 0 0 {name=p45 lab=comp_clk}
@@ -230,25 +230,25 @@ C {devices/lab_pin.sym} 160 -330 0 1 {name=p1 sig_type=std_logic lab=VDD}
 C {devices/lab_pin.sym} 160 -310 0 1 {name=p2 sig_type=std_logic lab=GND}
 C {devices/lab_pin.sym} 160 -350 2 0 {name=l79 sig_type=std_logic lab=done
 }
-C {devices/lab_pin.sym} 160 -550 2 0 {name=l80 sig_type=std_logic lab=bit10
+C {devices/lab_pin.sym} 160 -550 2 0 {name=l80 sig_type=std_logic lab=obit10
 }
-C {devices/lab_pin.sym} 160 -530 2 0 {name=l81 sig_type=std_logic lab=bit9
+C {devices/lab_pin.sym} 160 -530 2 0 {name=l81 sig_type=std_logic lab=obit9
 }
-C {devices/lab_pin.sym} 160 -510 2 0 {name=l82 sig_type=std_logic lab=bit8
+C {devices/lab_pin.sym} 160 -510 2 0 {name=l82 sig_type=std_logic lab=obit8
 }
-C {devices/lab_pin.sym} 160 -490 2 0 {name=l83 sig_type=std_logic lab=bit7
+C {devices/lab_pin.sym} 160 -490 2 0 {name=l83 sig_type=std_logic lab=obit7
 }
-C {devices/lab_pin.sym} 160 -470 2 0 {name=l84 sig_type=std_logic lab=bit6
+C {devices/lab_pin.sym} 160 -470 2 0 {name=l84 sig_type=std_logic lab=obit6
 }
-C {devices/lab_pin.sym} 160 -450 2 0 {name=l85 sig_type=std_logic lab=bit5
+C {devices/lab_pin.sym} 160 -450 2 0 {name=l85 sig_type=std_logic lab=obit5
 }
-C {devices/lab_pin.sym} 160 -430 2 0 {name=l86 sig_type=std_logic lab=bit4
+C {devices/lab_pin.sym} 160 -430 2 0 {name=l86 sig_type=std_logic lab=obit4
 }
-C {devices/lab_pin.sym} 160 -410 2 0 {name=l87 sig_type=std_logic lab=bit3
+C {devices/lab_pin.sym} 160 -410 2 0 {name=l87 sig_type=std_logic lab=obit3
 }
-C {devices/lab_pin.sym} 160 -390 2 0 {name=l88 sig_type=std_logic lab=bit2
+C {devices/lab_pin.sym} 160 -390 2 0 {name=l88 sig_type=std_logic lab=obit2
 }
-C {devices/lab_pin.sym} 160 -370 2 0 {name=l89 sig_type=std_logic lab=bit1
+C {devices/lab_pin.sym} 160 -370 2 0 {name=l89 sig_type=std_logic lab=obit1
 }
 C {devices/lab_pin.sym} -140 -290 0 0 {name=l77 sig_type=std_logic lab=cycle13
 }

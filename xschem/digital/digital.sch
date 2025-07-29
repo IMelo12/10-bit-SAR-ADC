@@ -22,7 +22,7 @@ C {devices/lab_pin.sym} 160 -80 0 1 {name=p29 sig_type=std_logic lab=sw_n_sp[9..
 C {devices/lab_pin.sym} 160 -60 0 1 {name=p30 sig_type=std_logic lab=sw_p_sp[9..1]}
 C {devices/lab_pin.sym} 160 -40 0 1 {name=p31 sig_type=std_logic lab=sw_n[8..1]}
 C {devices/lab_pin.sym} 160 -20 0 1 {name=p32 sig_type=std_logic lab=sw_p[8..1]}
-C {devices/lab_pin.sym} 160 0 0 1 {name=p33 sig_type=std_logic lab=bit[10..1]}
+C {devices/lab_pin.sym} 160 0 0 1 {name=p33 sig_type=std_logic lab=obit[10..1]}
 C {devices/lab_pin.sym} 160 20 0 1 {name=p34 sig_type=std_logic lab=done}
 C {devices/lab_pin.sym} 160 40 0 1 {name=p37 sig_type=std_logic lab=sw_sample}
 C {devices/lab_pin.sym} 160 60 0 1 {name=p38 sig_type=std_logic lab=comp_clk}
@@ -38,7 +38,7 @@ C {devices/ipin.sym} -520 -60 0 0 {name=p1 lab=clk
 C {devices/ipin.sym} -520 -40 0 0 {name=p9 lab=clr
 }
 C {devices/opin.sym} -460 280 0 0 {name=p2 lab=sw_n8}
-C {devices/opin.sym} -460 680 0 0 {name=p6 lab=bit10}
+C {devices/opin.sym} -460 680 0 0 {name=p6 lab=obit10}
 C {devices/opin.sym} -460 920 0 0 {name=p10 lab=done}
 C {devices/opin.sym} -460 940 0 0 {name=p11 lab=sw_sample}
 C {devices/opin.sym} -460 960 0 0 {name=p12 lab=comp_clk}
@@ -74,12 +74,12 @@ C {devices/opin.sym} -460 560 0 0 {name=p58 lab=sw_p4}
 C {devices/opin.sym} -460 580 0 0 {name=p59 lab=sw_p3}
 C {devices/opin.sym} -460 600 0 0 {name=p60 lab=sw_p2}
 C {devices/opin.sym} -460 620 0 0 {name=p61 lab=sw_p1}
-C {devices/opin.sym} -460 700 0 0 {name=p5 lab=bit9}
-C {devices/opin.sym} -460 720 0 0 {name=p62 lab=bit8}
-C {devices/opin.sym} -460 740 0 0 {name=p63 lab=bit7}
-C {devices/opin.sym} -460 760 0 0 {name=p64 lab=bit6}
-C {devices/opin.sym} -460 780 0 0 {name=p65 lab=bit5}
-C {devices/opin.sym} -460 800 0 0 {name=p66 lab=bit4}
-C {devices/opin.sym} -460 820 0 0 {name=p67 lab=bit3}
-C {devices/opin.sym} -460 840 0 0 {name=p68 lab=bit2}
-C {devices/opin.sym} -460 860 0 0 {name=p69 lab=bit1}
+C {devices/opin.sym} -460 700 0 0 {name=p5 lab=obit9}
+C {devices/opin.sym} -460 720 0 0 {name=p62 lab=obit8}
+C {devices/opin.sym} -460 740 0 0 {name=p63 lab=obit7}
+C {devices/opin.sym} -460 760 0 0 {name=p64 lab=obit6}
+C {devices/opin.sym} -460 780 0 0 {name=p65 lab=obit5}
+C {devices/opin.sym} -460 800 0 0 {name=p66 lab=obit4}
+C {devices/opin.sym} -460 820 0 0 {name=p67 lab=obit3}
+C {devices/opin.sym} -460 840 0 0 {name=p68 lab=obit2}
+C {devices/opin.sym} -460 860 0 0 {name=p69 lab=obit1}
