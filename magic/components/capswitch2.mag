@@ -1,0 +1,79 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1754418244
+<< nwell >>
+rect 212 930 1488 1256
+<< psubdiff >>
+rect 644 712 708 736
+rect 644 592 708 616
+<< nsubdiff >>
+rect 700 1170 840 1200
+rect 700 1136 728 1170
+rect 812 1136 840 1170
+rect 700 1120 840 1136
+<< psubdiffcont >>
+rect 644 616 708 712
+<< nsubdiffcont >>
+rect 728 1136 812 1170
+<< locali >>
+rect 700 1170 840 1200
+rect 700 1136 728 1170
+rect 812 1136 840 1170
+rect 700 1120 840 1136
+rect 644 712 708 728
+rect 644 600 708 616
+<< viali >>
+rect 744 1136 800 1170
+rect 644 616 708 712
+<< metal1 >>
+rect 1076 1288 1150 1290
+rect 368 1226 1152 1288
+rect 214 758 274 1080
+rect 368 1066 442 1226
+rect 732 1170 820 1226
+rect 732 1136 744 1170
+rect 800 1136 820 1170
+rect 732 1126 816 1136
+rect 566 924 630 1018
+rect 962 924 1032 1160
+rect 1076 1078 1150 1226
+rect 1292 946 1362 1210
+rect 566 862 1032 924
+rect 566 854 630 862
+rect 414 814 630 854
+rect 406 586 470 768
+rect 630 712 722 724
+rect 630 616 644 712
+rect 708 616 722 712
+rect 962 672 1032 862
+rect 1160 906 1362 946
+rect 1160 904 1292 906
+rect 630 586 722 616
+rect 1062 598 1126 756
+rect 1160 628 1230 904
+rect 1062 586 1124 598
+rect 404 532 1124 586
+use sky130_fd_pr__nfet_01v8_2SE674  sky130_fd_pr__nfet_01v8_2SE674_0
+timestamp 1754345475
+transform 0 -1 370 1 0 783
+box -73 -148 73 148
+use sky130_fd_pr__nfet_01v8_5XXJZ8  sky130_fd_pr__nfet_01v8_5XXJZ8_0 ~/sky130-10-bit-SAR-ADC/mag/components
+timestamp 1666487809
+transform 0 1 1143 -1 0 737
+box -125 -179 125 121
+use sky130_fd_pr__pfet_01v8_MJXN3K  sky130_fd_pr__pfet_01v8_MJXN3K_0
+timestamp 1754345475
+transform 0 -1 441 1 0 1037
+box -109 -263 109 229
+use sky130_fd_pr__pfet_01v8_S6MTYS  sky130_fd_pr__pfet_01v8_S6MTYS_0 ~/sky130-10-bit-SAR-ADC/mag/components
+timestamp 1666374753
+transform 0 -1 1227 1 0 1095
+box -161 -265 177 265
+<< labels >>
+rlabel space 366 1226 440 1294 1 VDD
+rlabel metal1 240 898 240 898 1 vin
+rlabel metal1 1198 886 1200 888 1 Vout
+rlabel metal1 462 566 464 568 1 GND
+rlabel metal1 398 1266 400 1268 1 vdd
+<< end >>

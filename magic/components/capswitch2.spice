@@ -1,0 +1,29 @@
+* NGSPICE file created from capswitch2.ext - technology: sky130A
+
+.subckt sky130_fd_pr__pfet_01v8_S6MTYS a_n33_n165# w_n161_n265# a_n125_n165# a_63_n165#
++ a_n81_195#
+X0 a_n33_n165# a_n81_195# a_n125_n165# w_n161_n265# sky130_fd_pr__pfet_01v8 ad=0.27225 pd=1.98 as=0.5115 ps=3.92 w=1.65 l=0.15
+X1 a_63_n165# a_n81_195# a_n33_n165# w_n161_n265# sky130_fd_pr__pfet_01v8 ad=0.5115 pd=3.92 as=0.27225 ps=1.98 w=1.65 l=0.15
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_MJXN3K a_15_n201# a_n33_160# a_n73_n201# w_n109_n263#
+X0 a_15_n201# a_n33_160# a_n73_n201# w_n109_n263# sky130_fd_pr__pfet_01v8 ad=0.4785 pd=3.88 as=0.4785 ps=3.88 w=1.65 l=0.15
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_2SE674 a_n73_n122# a_15_n122# a_n33_82# VSUBS
+X0 a_15_n122# a_n33_82# a_n73_n122# VSUBS sky130_fd_pr__nfet_01v8 ad=0.2639 pd=2.4 as=0.2639 ps=2.4 w=0.91 l=0.15
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_5XXJZ8 a_n33_n91# a_n105_n179# a_63_n91# a_n125_n91#
++ VSUBS
+X0 a_63_n91# a_n105_n179# a_n33_n91# VSUBS sky130_fd_pr__nfet_01v8 ad=0.2821 pd=2.44 as=0.15015 ps=1.24 w=0.91 l=0.15
+X1 a_n33_n91# a_n105_n179# a_n125_n91# VSUBS sky130_fd_pr__nfet_01v8 ad=0.15015 pd=1.24 as=0.2821 ps=2.44 w=0.91 l=0.15
+.ends
+
+.subckt capswitch2
+Xsky130_fd_pr__pfet_01v8_S6MTYS_0 vdd vdd Vout Vout m1_414_814# sky130_fd_pr__pfet_01v8_S6MTYS
+Xsky130_fd_pr__pfet_01v8_MJXN3K_0 vdd vin m1_414_814# vdd sky130_fd_pr__pfet_01v8_MJXN3K
+Xsky130_fd_pr__nfet_01v8_2SE674_0 GND m1_414_814# vin GND sky130_fd_pr__nfet_01v8_2SE674
+Xsky130_fd_pr__nfet_01v8_5XXJZ8_0 GND m1_414_814# Vout Vout GND sky130_fd_pr__nfet_01v8_5XXJZ8
+.ends
+
