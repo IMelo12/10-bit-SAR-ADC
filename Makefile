@@ -36,7 +36,7 @@ spice_netlist:
 ifndef com
 	$(error no com set)
 endif
-	cd ./xschem; xschem -n -s -q --no_x ./$(com)/$(com).sch -o ../magic/$(com)/
+	cd ./xschem; xschem -n -s -q --no_x ./$(com)/$(com).sch -o ./$(com)/
 
 
 
@@ -78,6 +78,9 @@ endif
 extract_and_run_lvs: extract_magic_lvs extract_xschem_lvs clean_spice netgen_lvs
 
 
+.PHONY:cap_array_magic
+cap_array_magic:
+	cd ./utils; ./cap_array.sh	
 
 .PHONY:test
 test:

@@ -1,0 +1,33 @@
+* NGSPICE file created from capswitch4.ext - technology: sky130A
+
+.subckt sky130_fd_pr__nfet_01v8_ZZU2YL a_159_n91# a_n221_n91# a_n33_n91# a_n177_n179#
++ a_63_n91# a_n129_n91# VSUBS
+X0 a_63_n91# a_n177_n179# a_n33_n91# VSUBS sky130_fd_pr__nfet_01v8 ad=0.15015 pd=1.24 as=0.15015 ps=1.24 w=0.91 l=0.15
+X1 a_n33_n91# a_n177_n179# a_n129_n91# VSUBS sky130_fd_pr__nfet_01v8 ad=0.15015 pd=1.24 as=0.15015 ps=1.24 w=0.91 l=0.15
+X2 a_159_n91# a_n177_n179# a_63_n91# VSUBS sky130_fd_pr__nfet_01v8 ad=0.2821 pd=2.44 as=0.15015 ps=1.24 w=0.91 l=0.15
+X3 a_n129_n91# a_n177_n179# a_n221_n91# VSUBS sky130_fd_pr__nfet_01v8 ad=0.15015 pd=1.24 as=0.2821 ps=2.44 w=0.91 l=0.15
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_C7DZJH a_n33_n165# a_n177_n262# w_n263_n295# a_159_n165#
++ a_n221_n165# a_n129_n165# a_63_n165#
+X0 a_n33_n165# a_n177_n262# a_n129_n165# w_n263_n295# sky130_fd_pr__pfet_01v8 ad=0.27225 pd=1.98 as=0.27225 ps=1.98 w=1.65 l=0.15
+X1 a_159_n165# a_n177_n262# a_63_n165# w_n263_n295# sky130_fd_pr__pfet_01v8 ad=0.5115 pd=3.92 as=0.27225 ps=1.98 w=1.65 l=0.15
+X2 a_63_n165# a_n177_n262# a_n33_n165# w_n263_n295# sky130_fd_pr__pfet_01v8 ad=0.27225 pd=1.98 as=0.27225 ps=1.98 w=1.65 l=0.15
+X3 a_n129_n165# a_n177_n262# a_n221_n165# w_n263_n295# sky130_fd_pr__pfet_01v8 ad=0.27225 pd=1.98 as=0.5115 ps=3.92 w=1.65 l=0.15
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_MJXN3K a_15_n201# a_n33_160# a_n73_n201# w_n109_n263#
+X0 a_15_n201# a_n33_160# a_n73_n201# w_n109_n263# sky130_fd_pr__pfet_01v8 ad=0.4785 pd=3.88 as=0.4785 ps=3.88 w=1.65 l=0.15
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_2SE674 a_n73_n122# a_15_n122# a_n33_82# VSUBS
+X0 a_15_n122# a_n33_82# a_n73_n122# VSUBS sky130_fd_pr__nfet_01v8 ad=0.2639 pd=2.4 as=0.2639 ps=2.4 w=0.91 l=0.15
+.ends
+
+.subckt capswitch4 Vout GND Vin VDD
+Xsky130_fd_pr__nfet_01v8_ZZU2YL_0 GND GND GND m1_n614_n202# Vout Vout GND sky130_fd_pr__nfet_01v8_ZZU2YL
+Xsky130_fd_pr__pfet_01v8_C7DZJH_0 VDD m1_n614_n202# VDD VDD VDD Vout Vout sky130_fd_pr__pfet_01v8_C7DZJH
+Xsky130_fd_pr__pfet_01v8_MJXN3K_0 VDD Vin m1_n614_n202# VDD sky130_fd_pr__pfet_01v8_MJXN3K
+Xsky130_fd_pr__nfet_01v8_2SE674_0 GND m1_n614_n202# Vin GND sky130_fd_pr__nfet_01v8_2SE674
+.ends
+

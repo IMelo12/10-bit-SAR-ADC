@@ -1,0 +1,7 @@
+** sch_path: /home/ttuser/Documents/SARADC/xschem/cap64/cap64.sch
+**.subckt cap64 bottom top
+*.ipin bottom
+*.ipin top
+XC12 top bottom sky130_fd_pr__cap_mim_m3_1 W=5 L=5 MF=64 m=64
+**.ends
+.end

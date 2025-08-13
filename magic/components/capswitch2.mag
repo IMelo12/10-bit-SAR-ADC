@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1754418244
+timestamp 1754679800
 << nwell >>
 rect 212 930 1488 1256
 << psubdiff >>
@@ -71,9 +71,12 @@ timestamp 1666374753
 transform 0 -1 1227 1 0 1095
 box -161 -265 177 265
 << labels >>
-rlabel space 366 1226 440 1294 1 VDD
-rlabel metal1 240 898 240 898 1 vin
-rlabel metal1 1198 886 1200 888 1 Vout
-rlabel metal1 462 566 464 568 1 GND
-rlabel metal1 398 1266 400 1268 1 vdd
+rlabel metal1 242 900 242 900 0 Vin
+port 2 nsew
+rlabel metal1 654 1274 654 1274 0 VDD
+port 3 nsew
+rlabel metal1 652 554 652 554 1 GND
+port 1 n
+rlabel metal1 1206 892 1206 892 1 Vout
+port 4 n
 << end >>

@@ -1,0 +1,74 @@
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_01v8                                                |Circuit 2: sky130_fd_pr__nfet_01v8                                                
+----------------------------------------------------------------------------------|----------------------------------------------------------------------------------
+1                                                                                 |1                                                                                 
+2                                                                                 |2                                                                                 
+3                                                                                 |3                                                                                 
+4                                                                                 |4                                                                                 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_01v8                                                |Circuit 2: sky130_fd_pr__pfet_01v8                                                
+----------------------------------------------------------------------------------|----------------------------------------------------------------------------------
+1                                                                                 |1                                                                                 
+2                                                                                 |2                                                                                 
+3                                                                                 |3                                                                                 
+4                                                                                 |4                                                                                 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_MRXJZU in circuit capswitch8 (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_9CGS2F in circuit capswitch8 (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_SAA2ZS in circuit capswitch8 (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_CBMBZG in circuit capswitch8 (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_5XXJZ8 in circuit capswitch8 (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_ZDVJZL in circuit capswitch8 (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_BBAHKR in circuit capswitch8 (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_CBVRKH in circuit capswitch8 (1)(1 instance)
+
+Class capswitch8 (1):  Merged 22 parallel devices.
+Subcircuit summary:
+Circuit 1: capswitch8                                                             |Circuit 2: capswitch8                                                             
+----------------------------------------------------------------------------------|----------------------------------------------------------------------------------
+sky130_fd_pr__pfet_01v8 (4)                                                       |sky130_fd_pr__pfet_01v8 (15->4)                                                   
+sky130_fd_pr__nfet_01v8 (4)                                                       |sky130_fd_pr__nfet_01v8 (15->4)                                                   
+Number of devices: 8                                                              |Number of devices: 8                                                              
+Number of nets: 7                                                                 |Number of nets: 7                                                                 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Netlists match uniquely with property errors.
+sky130_fd_pr__nfet_01v8:M7 vs. sky130_fd_pr__nfet_01v8_MRXJZU_0/sky130_fd_pr__nfet_01v8:0:
+ W circuit1: 0.91   circuit2: 7.28   (delta=156%, cutoff=1%)
+sky130_fd_pr__nfet_01v8:M4 vs. sky130_fd_pr__nfet_01v8_ZDVJZL_0/sky130_fd_pr__nfet_01v8:0:
+ W circuit1: 0.91   circuit2: 3.64   (delta=120%, cutoff=1%)
+sky130_fd_pr__nfet_01v8:M2 vs. sky130_fd_pr__nfet_01v8_5XXJZ8_0/sky130_fd_pr__nfet_01v8:0:
+ W circuit1: 0.91   circuit2: 1.82   (delta=66.7%, cutoff=1%)
+sky130_fd_pr__pfet_01v8:M3 vs. sky130_fd_pr__pfet_01v8_BBAHKR_0/sky130_fd_pr__pfet_01v8:0:
+ W circuit1: 1.65   circuit2: 6.6   (delta=120%, cutoff=1%)
+sky130_fd_pr__pfet_01v8:M1 vs. sky130_fd_pr__pfet_01v8_CBMBZG_1/sky130_fd_pr__pfet_01v8:0:
+ W circuit1: 1.65   circuit2: 3.3   (delta=66.7%, cutoff=1%)
+sky130_fd_pr__pfet_01v8:M6 vs. sky130_fd_pr__pfet_01v8_CBVRKH_0/sky130_fd_pr__pfet_01v8:0:
+ W circuit1: 1.65   circuit2: 13.2   (delta=156%, cutoff=1%)
+
+Subcircuit pins:
+Circuit 1: capswitch8                                                             |Circuit 2: capswitch8                                                             
+----------------------------------------------------------------------------------|----------------------------------------------------------------------------------
+GND                                                                               |GND                                                                               
+VDD                                                                               |VDD                                                                               
+Vout                                                                              |Vout                                                                              
+Vin                                                                               |Vin                                                                               
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes capswitch8 and capswitch8 are equivalent.
+
+Final result: Circuits match uniquely.
+Property errors were found.
+
+The following cells had property errors:
+ capswitch8

@@ -20,10 +20,10 @@ X0 a_63_n91# a_n105_n179# a_n33_n91# VSUBS sky130_fd_pr__nfet_01v8 ad=0.2821 pd=
 X1 a_n33_n91# a_n105_n179# a_n125_n91# VSUBS sky130_fd_pr__nfet_01v8 ad=0.15015 pd=1.24 as=0.2821 ps=2.44 w=0.91 l=0.15
 .ends
 
-.subckt capswitch2
-Xsky130_fd_pr__pfet_01v8_S6MTYS_0 vdd vdd Vout Vout m1_414_814# sky130_fd_pr__pfet_01v8_S6MTYS
-Xsky130_fd_pr__pfet_01v8_MJXN3K_0 vdd vin m1_414_814# vdd sky130_fd_pr__pfet_01v8_MJXN3K
-Xsky130_fd_pr__nfet_01v8_2SE674_0 GND m1_414_814# vin GND sky130_fd_pr__nfet_01v8_2SE674
+.subckt capswitch2 GND Vin VDD Vout
+Xsky130_fd_pr__pfet_01v8_S6MTYS_0 VDD VDD Vout Vout m1_414_814# sky130_fd_pr__pfet_01v8_S6MTYS
+Xsky130_fd_pr__pfet_01v8_MJXN3K_0 VDD Vin m1_414_814# VDD sky130_fd_pr__pfet_01v8_MJXN3K
+Xsky130_fd_pr__nfet_01v8_2SE674_0 GND m1_414_814# Vin GND sky130_fd_pr__nfet_01v8_2SE674
 Xsky130_fd_pr__nfet_01v8_5XXJZ8_0 GND m1_414_814# Vout Vout GND sky130_fd_pr__nfet_01v8_5XXJZ8
 .ends
 

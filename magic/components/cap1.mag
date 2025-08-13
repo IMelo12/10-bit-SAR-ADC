@@ -1,0 +1,8 @@
+magic
+tech sky130A
+timestamp 1754892832
+use sky130_fd_pr__cap_mim_m3_1_H9XL9H  sky130_fd_pr__cap_mim_m3_1_H9XL9H_0
+timestamp 1754892832
+transform 1 0 295 0 1 -56
+box -343 -270 343 270
+<< end >>

@@ -1,0 +1,86 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1754686862
+<< nwell >>
+rect -952 8 590 642
+rect 266 -2 324 8
+<< psubdiff >>
+rect -360 -328 -248 -304
+rect -360 -480 -248 -456
+<< nsubdiff >>
+rect -272 440 -130 450
+rect -272 402 -240 440
+rect -162 402 -130 440
+rect -272 384 -130 402
+<< psubdiffcont >>
+rect -360 -456 -248 -328
+<< nsubdiffcont >>
+rect -240 402 -162 440
+<< locali >>
+rect -272 440 -130 450
+rect -272 402 -240 440
+rect -162 402 -130 440
+rect -272 384 -130 402
+rect -360 -328 -248 -312
+rect -360 -472 -248 -456
+<< viali >>
+rect -226 402 -178 440
+rect -360 -456 -248 -328
+<< metal1 >>
+rect -256 566 -202 642
+rect -472 506 212 566
+rect -808 -40 -748 284
+rect -472 280 -410 506
+rect -240 440 -162 506
+rect -240 402 -226 440
+rect -178 402 -162 440
+rect -240 388 -162 402
+rect -952 -86 -748 -40
+rect -808 -260 -748 -86
+rect -614 -4 -550 224
+rect -20 -4 44 440
+rect 106 52 212 506
+rect 266 376 372 470
+rect -614 -60 44 -4
+rect -614 -202 -550 -60
+rect -704 -534 -638 -252
+rect -368 -328 -240 -306
+rect -368 -456 -360 -328
+rect -248 -456 -240 -328
+rect -368 -534 -240 -456
+rect -20 -484 44 -60
+rect 266 -68 378 376
+rect 80 -534 144 -80
+rect 174 -84 234 -76
+rect 266 -84 594 -68
+rect 174 -120 594 -84
+rect 174 -416 234 -120
+rect -706 -564 144 -534
+rect -706 -586 142 -564
+use sky130_fd_pr__nfet_01v8_2SE674  sky130_fd_pr__nfet_01v8_2SE674_0
+timestamp 1754684131
+transform 0 -1 -658 1 0 -227
+box -73 -148 73 148
+use sky130_fd_pr__nfet_01v8_ZZU2YL  sky130_fd_pr__nfet_01v8_ZZU2YL_0 ~/sky130-10-bit-SAR-ADC/mag/components
+timestamp 1667436771
+transform 0 1 159 -1 0 -295
+box -221 -179 221 119
+use sky130_fd_pr__pfet_01v8_C7DZJH  sky130_fd_pr__pfet_01v8_C7DZJH_0 ~/sky130-10-bit-SAR-ADC/mag/components
+timestamp 1666381551
+transform 0 1 241 -1 0 263
+box -263 -295 267 275
+use sky130_fd_pr__pfet_01v8_MJXN3K  sky130_fd_pr__pfet_01v8_MJXN3K_0
+timestamp 1754684131
+transform 0 -1 -581 1 0 251
+box -109 -263 109 229
+<< labels >>
+rlabel metal1 588 -92 588 -92 1 Vout
+port 1 n
+rlabel metal1 -304 -582 -304 -582 1 GND
+port 2 n
+rlabel metal1 -948 -68 -948 -68 3 Vin
+port 3 e
+rlabel metal1 -230 640 -230 640 5 VDD
+port 4 s
+<< end >>

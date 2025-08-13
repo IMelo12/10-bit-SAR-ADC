@@ -1,8 +1,9 @@
+#!/bin/sh
 
 
 
 
-
+cd ../magic
 
 magic -noconsole -dnull << EOF
 
